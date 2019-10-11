@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.8.1)
+  - BaiduMapKit (4.3.0)
+  - BMKLocationKit (1.5.0)
+  - HandyJSON (5.0.0-beta)
+  - Kingfisher (5.3.0)
+  - Starscream (3.0.6)
+  - SVProgressHUD (2.2.5)
+  - WechatOpenSDK (1.8.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - BaiduMapKit
+  - BMKLocationKit
+  - HandyJSON (from `https://github.com/alibaba/HandyJSON.git`, branch `dev_for_swift5.0`)
+  - Kingfisher
+  - Starscream
+  - SVProgressHUD
+  - WechatOpenSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BaiduMapKit
+    - BMKLocationKit
+    - Kingfisher
+    - Starscream
+    - SVProgressHUD
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  HandyJSON:
+    :branch: dev_for_swift5.0
+    :git: https://github.com/alibaba/HandyJSON.git
+
+CHECKOUT OPTIONS:
+  HandyJSON:
+    :commit: da19ac4e0f7810302a033cf3315c5687d2bf090d
+    :git: https://github.com/alibaba/HandyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  BaiduMapKit: 63575d9236b4112c4ff76391df637f2a6dc1ada8
+  BMKLocationKit: 40d267478acd8704ddebd0e9deaddc727b13df9f
+  HandyJSON: b84ac9904050a0897a0802092b7cb8808e0a4e9a
+  Kingfisher: 4692c783ffb99e9e2e40a6eb3e518c3b96c6fa8c
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
+
+PODFILE CHECKSUM: afadf31010a6b707330bdf371deefec6fa895398
+
+COCOAPODS: 1.6.1
